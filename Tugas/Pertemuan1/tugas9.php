@@ -1,3 +1,4 @@
+
 <?php
 // Konstanta untuk pajak
 define("PAJAK", 0.10);
@@ -55,3 +56,4 @@ $total_bayar = $total_sebelum_pajak + $pajak;
     </div>
 </body>
 </html>
+>
