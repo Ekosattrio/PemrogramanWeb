@@ -12,7 +12,7 @@
 
     switch ($hari) {
         case 'senin':
-            echo "hari pertama kerja!!";
+            echo "hari pertama kerja!! keren";
             break;
 
         case 'jumat':
