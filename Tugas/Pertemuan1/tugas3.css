@@ -1,0 +1,134 @@
+:root {
+    --putih: #FFFFFF;
+    --merahtua: #9C1428;
+    --merahterang: #D73E3E;
+    --abu-muda: #ECF0F1;
+    --abu-sedang: #BDC3C7;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    height: 7rem;
+    width: 100%;
+    display: flexbox;
+}
+.navbar1{
+    height: 4rem;
+    background-color: #9C1428;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.navbar2{
+    height: 3rem;
+    background-color: #D73E3E;
+    text-align: center;
+}
+
+.teks{
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center ;
+}
+.teks p {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+.item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.item ul li{
+    display: inline;
+    padding: 0 5px 0 5px;
+    }
+
+.item ul li a{
+        text-decoration: none;
+        color: white;
+}
+.main{
+    width: 100%;
+    padding-top: 15px;
+    height:100vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inmain{
+    width: 98%;
+    height: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftbar{
+    width: 69%;
+    height: 100%;
+    background-color: var(--abu-muda);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+.rightbar{
+    width: 29%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: var(--abu-sedang);
+    border-radius: 10px;
+}
+.inleftbar{
+    width: 95%;
+    height: 95%;
+    
+}
+.inrightbar{
+    width: 93%;
+    height: 95%;
+}
+#formPend{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#silahkan{
+    margin-top: -20px;
+}
+.inleftbar label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.inleftbar input, select, textarea {
+    width: 99%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+
+  #teksa{
+    height: 40px;
+    width: 97.5%;
+  }
+  .btn{
+    background-color:#2980B9 ;
+    color: white;
+    transform: scale(1.1);
+    width: 90%;
+    border: none;
+    height: 30px;
+    margin: 10px 0 0 50px;
+    border-radius: 5px;
+  }
