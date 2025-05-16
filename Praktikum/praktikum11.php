@@ -7,20 +7,26 @@
 </head>
 <body>
     <?php
-    $hari = "jumat"
+    $hari = "jumat";
+
     switch ($hari) {
         case 'senin':
             echo "hari pertama kerja!!";
             break;
-        
-        case 'jumat'
+
+        case 'jumat':
             echo "solat jumat";
             break;
-            default;
-            echo "hari biasa"
+
+        default:
+            echo "hari biasa";
+            break;
     }
-    for ($i=1; $i 1 <= 5 ; $i+1) { 
-        echo "angka ke-".$i."br"
+
+    echo "<br><br>";
+
+    for ($i = 1; $i <= 5; $i++) {
+        echo "angka ke-" . $i . "<br>";
     }
     ?>
 </body>
