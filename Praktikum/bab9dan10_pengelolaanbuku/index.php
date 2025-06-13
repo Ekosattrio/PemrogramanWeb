@@ -7,6 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <?php
+session_start();
+if (!isset($_SESSION['login'])) {
+    header("Location: form_login.php");
+    exit;
+}
+?>
+
 <?php include 'nav.php'; ?>
 <div class="container mt-4">
     <h2>Daftar Buku</h2>
