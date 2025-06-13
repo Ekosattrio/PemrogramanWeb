@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Form Input</title></head>
+<body>
+<h2>Form Biodata</h2>
+<form action="" method="post">
+    Nama: <input type="text" name="nama"><br>
+    Email: <input type="email" name="email"><br>
+    <input type="submit" value="Kirim">
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nama = $_POST['nama'];
+    $email = $_POST['email'];
+    echo "<hr>";
+    echo "Nama: " . htmlspecialchars($nama) . "<br>";
+    echo "Email: " . htmlspecialchars($email);
+}
+?>
+</body>
+</html>
